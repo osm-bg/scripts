@@ -1,0 +1,19 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "containers": "node recycling-containers/script.js",
+    "containers:debug": "node recycling-containers/script.js --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@derhuerst/query-overpass": "^2.0.1",
+    "dotenv": "^17.4.1"
+  }
+}

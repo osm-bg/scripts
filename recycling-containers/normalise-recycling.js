@@ -30,6 +30,12 @@ const operator_type_map = [
         operators: new Set([ 'Екобулпак', 'Булекопак', 'Еко Партнърс' ]),
         colours: [
             {
+                colour: 'blue',
+                accept: ['recycling:paper_packaging'],
+                reject: [],
+                note: 'Ако случайно има някъде такива контейнери'
+            },
+            {
                 colour: 'green',
                 accept: ['recycling:glass_bottles'],
                 reject: ['recycling:glass']

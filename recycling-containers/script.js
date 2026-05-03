@@ -72,7 +72,7 @@ async function run() {
         }
         else{
             await upload_elements_to_osm({
-                comment: `хармонизиране на тагове на контейнери за рециклиране - квадрат ${i + 1}/${squares.length}`,
+                comment: 'хармонизирани тагове за приемани отпадъци в контейнери за разделно събиране',
                 script: 'recycling-containers',
             }, square.containers);
         }

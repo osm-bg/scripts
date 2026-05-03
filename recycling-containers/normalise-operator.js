@@ -8,7 +8,7 @@ const operator_wikidata_map = new Map([
     ['texcycle', { name: 'TexCycle', wikidata: 'Q85614408'}],
     ['texaid bulgaria', { name: 'TEXAID Bulgaria', wikidata: 'Q1395183'}],
     ['уон', { name: 'Уон', wikidata: 'Q129167135'}],
-    ['Еко Партнърс', { name: 'Еко Партнърс', wikidata: 'Q116687227'}],
+    ['еко партнърс', { name: 'Еко Партнърс', wikidata: 'Q116687227'}],
 ]);
 
 export function normalise_operator(container) {
